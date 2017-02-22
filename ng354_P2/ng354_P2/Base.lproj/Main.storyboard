@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ng354 View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="Ng354ViewController" customModule="ng354_P2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRE-93-L4c">
+                                <rect key="frame" x="16" y="60" width="51" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQi-yf-9LI">
+                                <rect key="frame" x="16" y="97" width="39" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Major:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0EM-ib-eBU">
+                                <rect key="frame" x="16" y="133" width="49" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GPA:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bU-tA-Gak">
+                                <rect key="frame" x="16" y="169" width="39" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ffa-CL-uc9">
+                                <rect key="frame" x="80" y="56" width="504" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Year" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="etm-JQ-sOh">
+                                <rect key="frame" x="80" y="94" width="504" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Major" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fEX-pA-ngn">
+                                <rect key="frame" x="80" y="133" width="504" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter GPA" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TxT-ye-nM4">
+                                <rect key="frame" x="80" y="169" width="504" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePP-uz-FQ9">
+                                <rect key="frame" x="257" y="219" width="87" height="30"/>
+                                <state key="normal" title="Add Student">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0Vn-uA-vpv"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zqn-ih-QQN">
+                                <rect key="frame" x="16" y="330" width="568" height="250"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="Y1W-Y4-b6I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="etm-JQ-sOh" firstAttribute="leading" secondItem="zQi-yf-9LI" secondAttribute="trailing" constant="25" id="3sz-QN-Iqg"/>
+                            <constraint firstItem="fEX-pA-ngn" firstAttribute="top" secondItem="etm-JQ-sOh" secondAttribute="bottom" constant="9" id="4eW-0m-0ES"/>
+                            <constraint firstItem="Zqn-ih-QQN" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="AMO-06-pHw"/>
+                            <constraint firstItem="fEX-pA-ngn" firstAttribute="leading" secondItem="0EM-ib-eBU" secondAttribute="trailing" constant="15" id="DDD-Um-ifG"/>
+                            <constraint firstItem="fEX-pA-ngn" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Di0-6z-OKv"/>
+                            <constraint firstItem="ffa-CL-uc9" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="EwL-q0-iAY"/>
+                            <constraint firstItem="Zqn-ih-QQN" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="GsZ-Sh-S2t"/>
+                            <constraint firstItem="ffa-CL-uc9" firstAttribute="leading" secondItem="HRE-93-L4c" secondAttribute="trailing" constant="13" id="GsZ-mY-m4p"/>
+                            <constraint firstItem="0EM-ib-eBU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Iyt-5R-aJS"/>
+                            <constraint firstItem="etm-JQ-sOh" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Ldw-4Q-5g0"/>
+                            <constraint firstItem="HRE-93-L4c" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="MBk-NA-dUu"/>
+                            <constraint firstItem="ffa-CL-uc9" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="36" id="OGk-bz-PgN"/>
+                            <constraint firstItem="0EM-ib-eBU" firstAttribute="top" secondItem="zQi-yf-9LI" secondAttribute="bottom" constant="15" id="OI5-zM-7Hh"/>
+                            <constraint firstItem="TxT-ye-nM4" firstAttribute="top" secondItem="fEX-pA-ngn" secondAttribute="bottom" constant="6" id="PfY-nq-mfK"/>
+                            <constraint firstItem="TxT-ye-nM4" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Q1T-eW-XJc"/>
+                            <constraint firstAttribute="centerX" secondItem="ePP-uz-FQ9" secondAttribute="centerX" id="Uyd-3p-SRZ"/>
+                            <constraint firstItem="TxT-ye-nM4" firstAttribute="leading" secondItem="8bU-tA-Gak" secondAttribute="trailing" constant="25" id="WLx-Uj-MP0"/>
+                            <constraint firstItem="ePP-uz-FQ9" firstAttribute="top" secondItem="TxT-ye-nM4" secondAttribute="bottom" constant="20" id="bpG-uc-4g0"/>
+                            <constraint firstItem="etm-JQ-sOh" firstAttribute="top" secondItem="ffa-CL-uc9" secondAttribute="bottom" constant="8" id="cpf-bt-GYZ"/>
+                            <constraint firstItem="zQi-yf-9LI" firstAttribute="top" secondItem="HRE-93-L4c" secondAttribute="bottom" constant="16" id="goV-6y-UuO"/>
+                            <constraint firstItem="HRE-93-L4c" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="40" id="iVN-e7-fDf"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Zqn-ih-QQN" secondAttribute="bottom" constant="20" id="j8s-4v-hT9"/>
+                            <constraint firstItem="8bU-tA-Gak" firstAttribute="top" secondItem="0EM-ib-eBU" secondAttribute="bottom" constant="15" id="omZ-Ez-hsf"/>
+                            <constraint firstItem="zQi-yf-9LI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="omz-nE-chK"/>
+                            <constraint firstItem="8bU-tA-Gak" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="u7U-kT-6B6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gpaField" destination="TxT-ye-nM4" id="FIt-6d-jEz"/>
+                        <outlet property="majorField" destination="fEX-pA-ngn" id="4my-Un-hDD"/>
+                        <outlet property="nameField" destination="ffa-CL-uc9" id="gSQ-hl-3Ez"/>
+                        <outlet property="textView" destination="Zqn-ih-QQN" id="PLH-b4-RIy"/>
+                        <outlet property="yearField" destination="etm-JQ-sOh" id="to4-Tq-2k8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-955" y="-902"/>
+        </scene>
+    </scenes>
+</document>
